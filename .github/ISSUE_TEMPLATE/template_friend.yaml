@@ -16,8 +16,6 @@ body:
           label: 有独立域名，非免费域名。
         - required: false
           label: 博客已运行至少半年，非刚搭建好。
-        - required: false
-          label: 与 **博主** 有至少 5 次有效互动（有内容的留言或者 issue 等）。
   - type: textarea
     id: config-file
     validations:
