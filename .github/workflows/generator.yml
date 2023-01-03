@@ -1,8 +1,6 @@
 name: Generator
-
 on:
-  issues: [closed]
-
+  issues: [closed,edited]
 jobs:
   build:
     runs-on: ubuntu-latest
