@@ -10,9 +10,29 @@ jobs:
   comment:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
-      - name: Label Commenter
-        uses: peaceiris/actions-label-commenter@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          config_file: .github/configs/label-commenter-config.yml
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Set up Python #安装python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install requirements #安装requests
+      run: |
+        pip install -r requirements.txt
+    - name: Update links #更新
+      run: |
+        python generator/main.py
+    - name: Commit & Push
+      uses: action-x/commit@v2.9
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'output'
+        force-push: 'true'
+        commit-message: 'Generate Json'
+        name: github-actions[bot]
+        email: github-actions[bot]@noreply.github.com
+    - name: Label Commenter
+      uses: peaceiris/actions-label-commenter@v1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        config_file: .github/configs/label-commenter-config.yml
