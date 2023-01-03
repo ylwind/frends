@@ -4,8 +4,6 @@ on:
   issues:
     types:
       - labeled
-      - unlabeled
-      
 jobs:
   comment:
     runs-on: ubuntu-18.04
