@@ -1,7 +1,7 @@
 name: Generator
 
 on:
-  issues: [edited]
+  issues: [closed]
 
 jobs:
   build:
