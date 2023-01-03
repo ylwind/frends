@@ -26,7 +26,7 @@ def getData(repo,parameter,sort,data_pool,json_pool):
         for number in range(1, 100):
             linklist = []
             print('page:', number)
-            url = 'https://github.com/' + repo + '/issues?page=' + str(number) + '&q=is%3Aopen'
+            url = 'https://github.com/' + repo + '/issues?page=' + str(number) + '&q=is%3Aclosed'
             if parameter:
                 url = url + parameter
             if sort:
