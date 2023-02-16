@@ -1,0 +1,53 @@
+{
+  "version": "v2",
+  "content": [
+    {
+      "title": "萌工厂",
+      "url": "https://www.moefactory.com/",
+      "avatar": "https://images-us1.dev86.site/common/friends/moefactory.com.png",
+      "screenshot": "https://images-us1.dev86.site/common/friends/moefactory.com.png",
+      "description": "白日梦想家"
+    },
+    {
+      "title": "阳光之海",
+      "url": "https://www.ygsea.com",
+      "avatar": "https://images-us1.dev86.site/common/friends/www.ygsea.com.jpg",
+      "screenshot": "https://images-us1.dev86.site/common/friends/www.ygsea.com.jpg",
+      "description": ""
+    },
+    {
+      "title": "西电睿思",
+      "url": "https://rs.xidian.edu.cn",
+      "avatar": "",
+      "screenshot": "",
+      "description": ""
+    },
+    {
+      "title": "彩虹Smiling",
+      "url": "https://www.smilingblog.cn/",
+      "avatar": "https://cos-smiling-1256701495.cos.ap-chengdu.myqcloud.com/2019/06/1560685747-45612434534535354325323545.png?imageMogr2/thumbnail/!400x400r/gravity/Center/crop/400x400",
+      "screenshot": "",
+      "description": ""
+    },
+    {
+      "title": "是非题",
+      "url": "https://www.shifeiti.com",
+      "avatar": "https://other.shifeiti.com/logo/logo.png",
+      "description": "记录生活，热爱跑步，学习 FPGA 中"
+    },
+    {
+      "title": "ridic",
+      "url": "https://www.ridic.me",
+      "avatar": "https://cdn.img.huajitom.cn/2023/01/11/63bea119a2067.png",
+      "screenshot": "https://cdn.img.huajitom.cn/2023/01/07/63b8bf43c3902.png",
+      "description": "So ridiculous"
+    },
+    {
+      "title": "若海の技术写真",
+      "url": "https://www.rehiy.com/",
+      "avatar": "https://www.rehiy.com/logo.png",
+      "screenshot": "",
+      "description": "一个全栈攻城狮的纯技术干货分享"
+    }
+  ]
+}
